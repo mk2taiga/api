@@ -438,7 +438,7 @@ message LoadBalancerSettings {
       // load distributions. If the number of hosts in the load balancing
       // pool is larger than the ring size, each host will be assigned a
       // single virtual node.
-      uint64 minimum_ring_size = 1;
+      uint32 minimum_ring_size = 1;
     };
 
     message MagLev {
@@ -447,7 +447,7 @@ message LoadBalancerSettings {
       // Increasing the table size reduces the amount of disruption.
       // The table size must be prime number less than 5000011.
       // If it is not specified, the default is 65537.
-      uint64 table_size = 1;
+      uint32 table_size = 1;
     };
     // Describes a HTTP cookie that will be used as the hash key for the
     // Consistent Hash load balancer.
