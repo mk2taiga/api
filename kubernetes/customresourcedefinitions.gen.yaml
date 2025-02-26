@@ -622,6 +622,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -636,6 +637,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -991,6 +993,7 @@ spec:
                                           tableSize:
                                             description: The table size for Maglev
                                               hashing.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -1006,6 +1009,7 @@ spec:
                                           minimumRingSize:
                                             description: The minimum number of virtual
                                               nodes to use for the hash ring.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -1511,6 +1515,7 @@ spec:
                             properties:
                               tableSize:
                                 description: The table size for Maglev hashing.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -1525,6 +1530,7 @@ spec:
                               minimumRingSize:
                                 description: The minimum number of virtual nodes to
                                   use for the hash ring.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -1872,6 +1878,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -1886,6 +1893,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -2536,6 +2544,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -2550,6 +2559,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -2905,6 +2915,7 @@ spec:
                                           tableSize:
                                             description: The table size for Maglev
                                               hashing.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -2920,6 +2931,7 @@ spec:
                                           minimumRingSize:
                                             description: The minimum number of virtual
                                               nodes to use for the hash ring.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -3425,6 +3437,7 @@ spec:
                             properties:
                               tableSize:
                                 description: The table size for Maglev hashing.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -3439,6 +3452,7 @@ spec:
                               minimumRingSize:
                                 description: The minimum number of virtual nodes to
                                   use for the hash ring.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -3786,6 +3800,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -3800,6 +3815,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -4450,6 +4466,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -4464,6 +4481,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -4819,6 +4837,7 @@ spec:
                                           tableSize:
                                             description: The table size for Maglev
                                               hashing.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -4834,6 +4853,7 @@ spec:
                                           minimumRingSize:
                                             description: The minimum number of virtual
                                               nodes to use for the hash ring.
+                                            maximum: 4294967295
                                             minimum: 0
                                             type: integer
                                         type: object
@@ -5339,6 +5359,7 @@ spec:
                             properties:
                               tableSize:
                                 description: The table size for Maglev hashing.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -5353,6 +5374,7 @@ spec:
                               minimumRingSize:
                                 description: The minimum number of virtual nodes to
                                   use for the hash ring.
+                                maximum: 4294967295
                                 minimum: 0
                                 type: integer
                             type: object
@@ -5700,6 +5722,7 @@ spec:
                                   properties:
                                     tableSize:
                                       description: The table size for Maglev hashing.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
@@ -5714,6 +5737,7 @@ spec:
                                     minimumRingSize:
                                       description: The minimum number of virtual nodes
                                         to use for the hash ring.
+                                      maximum: 4294967295
                                       minimum: 0
                                       type: integer
                                   type: object
